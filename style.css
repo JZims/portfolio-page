@@ -1,3 +1,31 @@
-body {
-    background: rgb(100, 172, 115);
-}
+#sup {
+    color: green;
+    text-align:
+  }
+  
+  #welcome-section {
+    
+  }
+  
+  #projects {
+    
+  }
+  
+  .project-title {
+    color: purple;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 3px;
+    text-align: center;
+    width: 25%;
+    backgrounolor: red;
+    }
+    
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify
+    float: right;
+  } 
