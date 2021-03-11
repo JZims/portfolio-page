@@ -15,20 +15,36 @@
 .navigation {
   display:flex;
   justify-content: flex-end;
-  
+ 
 }
 
- .nav-list {
-  
+ #nav-list {
+  background: rgb(110, 99, 97);
+  margin:0px;
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: fixed;
+  top: 20px;
+  right: 0px;
 }
 
 
-.nav-list a {
-  
+
+
+#nav-list a{
+  color: azure;
+  display: block;
+  font-size:inherit;
+  padding:10px;
+ 
 }
 
-.nav-list a:hover {
-  
+#nav-list a:hover {
+  background:rgb(15, 15, 15);
+  color:azure;
+  border-radius: 25%;
 }
 
 #welcome-section h1 {
