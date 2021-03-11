@@ -1,34 +1,54 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Personal Portfolio(Working Title)</title>
+    <title id="title">My Personal Portfolio(Working Title)</title>
     <link rel="stylesheet" href="style.css">
     
   </head>
   <body>
    <script src="index.js"></script>
+
+   <!--Start Nav-->
+   <nav id="navbar" class="navigation">
+    <ul id="nav-list">
+      <li><a href="#welcome-section">About</a></li>
+      <li><a href="#projects">Work</a>
+      <li><a href="#contact">Contact Me</a>
+    </ul>
+   </nav>
     
-    
+    <!--End Nav/Start Welcome-->
     <div id="welcome-section">
-    <h1 id="sup"> Sup </h1>
+    <h1> Sup </h1>
    </div>
   
-    <nav id="navbar" class="navigation">
-      <ul>
-        <li><a href="#welcome-section">About</a></li>
-        <li><a href="#projects">Work</a>
-        <li><a href="#contact">Contact Me</a<
-      </ul>
-     </nav>
+    <!--End Welcome/Start Projects-->
       
     <div id="projects">
-          <h3><u>Projects:</u></h3>
-          <a href="https://jzims.github.io/portfolio-page/" target="_parent" class="project-title">Project 1</a><br>
-          <a href="#" target="_parent" class="project-title">Project 2</a><br>
-          <a href="#" target="_parent" class="project-title">Project 3</a>
+          <h2><strong>Projects:</strong></h3>
+            <ul>
+              <li><a href="https://jzims.github.io/portfolio-page/" target="_parent" class="project-tile">Project 1</a></li><br>
+              <li><a href="#" target="_parent" class="project-tile"> Project 2</a></li><br>
+              <li><a href="#" target="_parent" class="project-tile"> Project 3</a></li>
+            </ul>
     </div>
+
+    <hr>
+
+    <!--End Projects/Start Contacts-->
     
-    
+    <div id="profile-link contact-section">
+        <div id="contact-section-header">
+          <h3>Contact Info</h3>
+          <p>Let's work together...</p>
+        </div>
+        <ul>
+          <li><a href="https://twitter.com/JZmms" id="profile-link" target="_blank">Twitter</a></li>
+          <li><a href="https://github.com/JZims" id="profile-link" target="_blank">GitHub</a></li>
+          <li><a href ="https://www.linkedin.com/in/jzimms/" id="profile-link" target="_blank">LinkedIn</a></li>
+          <li><a href="mailto:zimmerman.j@hotmail.com" id="profile-link" target="_blank">Email</a></li>
+        </ul>
+    </div>
     
      
 

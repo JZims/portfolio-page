@@ -1,31 +1,38 @@
-#sup {
-    color: green;
-    text-align:
-  }
+* {
+  padding: 0;
+  margin: 5px;
+  max-width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  display: block;
+}
+
+#title {
+  display:none;
+}
+
+
+.navigation {
+  display:flex;
+  justify-content: flex-end;
   
-  #welcome-section {
-    
-  }
+}
+
+ .nav-list {
   
-  #projects {
-    
-  }
+}
+
+
+.nav-list a {
   
-  .project-title {
-    color: purple;
-    float: left;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    border: 3px;
-    text-align: center;
-    width: 25%;
-    backgrounolor: red;
-    }
-    
-  nav {
-    display: flex;
-    flex-direction: row;
-    justify
-    float: right;
-  } 
+}
+
+.nav-list a:hover {
+  
+}
+
+#welcome-section h1 {
+  display: flex;
+  justify-content: center;
+  color: blueviolet;
+}
