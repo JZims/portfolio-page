@@ -1,10 +1,18 @@
-* {
-  padding: 0;
-  margin: 5px;
-  max-width: 100%;
-  overflow-x: hidden;
-  position: relative;
-  display: block;
+
+
+#welcome-section {
+  padding-top: 65px;
+}
+
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+
+h2 {
+  font-size: 4.2vh;
 }
 
 #title {
@@ -28,6 +36,8 @@
   position: fixed;
   top: 20px;
   right: 0px;
+  list-style-type:none;
+
 }
 
 
@@ -51,4 +61,53 @@
   display: flex;
   justify-content: center;
   color: blueviolet;
+  font-size: 7.6vh;
+}
+
+/*Universal selectors for the Projects section*/
+#projects{
+text-align: center;
+padding-top: 75px;
+}
+
+
+.projects-section{
+
+}
+
+
+/*Intro text to Projects section*/
+#projects-heading {
+  max-width: 640px;
+  margin: 0 auto 4rem auto;
+  border-bottom: 0.2rem solid;
+}
+
+/*How Projects are arranged*/
+.projects-grid{
+
+
+}
+
+/*Project image itself*/
+.project-image {
+width: 35%;
+justify-content: center;
+margin-right:0%;
+
+
+}
+
+/* Title underneath project image*/
+.project-title {
+
+
+}
+
+ul#projects-list {
+  display: flex;
+  flex-direction: row;
+  padding: 8rem 2rem;
+  width:1fr;
+  justify-content:space-evenly;
 }
