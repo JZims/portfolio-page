@@ -1,7 +1,16 @@
-
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn8k5tEDr5rrpgEIzmPCXjZaBdAQezvCIkbQ&usqp=CAU);
+}
 
 #welcome-section {
   padding-top: 65px;
+  display: flex;
+  justify-content: center;
+  color:rgb(214, 209, 209);
+  font-size: 8.6vh;
+}
+#welcome-section h1 {
+  
 }
 
 h1, h2 {
@@ -12,7 +21,8 @@ h1, h2 {
 
 
 h2 {
-  font-size: 4.2vh;
+  font-size: 6.2vh;
+  color: rgb(214, 209, 209);
 }
 
 #title {
@@ -42,7 +52,6 @@ h2 {
 
 
 
-
 #nav-list a{
   color: azure;
   display: block;
@@ -57,12 +66,7 @@ h2 {
   border-radius: 25%;
 }
 
-#welcome-section h1 {
-  display: flex;
-  justify-content: center;
-  color: blueviolet;
-  font-size: 7.6vh;
-}
+
 
 /*Universal selectors for the Projects section*/
 #projects{
@@ -70,10 +74,6 @@ text-align: center;
 padding-top: 75px;
 }
 
-
-.projects-section{
-
-}
 
 
 /*Intro text to Projects section*/
@@ -84,30 +84,54 @@ padding-top: 75px;
 }
 
 /*How Projects are arranged*/
-.projects-grid{
+div.projects-grid{
+  display:flex;
+  
+  justify-content: center;
+  flex-direction: column;
+  height: 3fr;
+  
 
+}
 
+a.project-tile {
+display:flex;
+height:1fr;
+justify-content: center;
+
+  
 }
 
 /*Project image itself*/
 .project-image {
-width: 35%;
-justify-content: center;
-margin-right:0%;
-
-
+  width: 35%;
 }
 
 /* Title underneath project image*/
 .project-title {
-
-
+  
+  justify-content:center;
+  margin: auto;
+  height: 1fr;
 }
 
-ul#projects-list {
+#project-1 {
+background-color: teal;
+}
+
+#project-2 {
+background-color: slategrey;
+}
+
+#project-3 {
+background-color:tomato;
+}
+
+
+/*ul#projects-list {
   display: flex;
   flex-direction: row;
   padding: 8rem 2rem;
   width:1fr;
   justify-content:space-evenly;
-}
+}*/
