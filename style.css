@@ -115,12 +115,13 @@ justify-content: center;
 }
 
 /* Title underneath project image*/
-.project-title {
-  justify-content:center;
+.project-title-swap {
+  justify-content: flex-end;
   margin: auto;
   height: 1fr;
+  
 }
-.project-title-swap {
+.project-title {
   display:none;
   justify-content:center;
   margin: auto;
