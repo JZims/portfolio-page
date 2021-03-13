@@ -4,4 +4,8 @@ h2.textContent = "This content added by JavaScript";
 //Populates the text of our h2 element
 //must be called in the dom by:
 //document.querySelector('ul').appendChild(h2);
+const titleSwap = document.getElementsByClassName('project-title');
 
+document.addEventListener('mouseover', function() {
+document.addEventListenerchangeClass='.project-title-swap';
+});
