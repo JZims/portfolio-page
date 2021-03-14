@@ -5,11 +5,22 @@
 //must be called in the dom by:
 //document.querySelector('ul').appendChild(h2);
 
-let titleSwap = document.querySelector('div > a.project-tile');
+let titleSwap = document.querySelector('.project-tile');
+
 
 titleSwap.addEventListener('mouseover', function(e) {
- document.querySelector('p.project-title').className='.project-title-swap';
+    var eventObj = false;
+        if (eventObj === false){
+            document.querySelector('.project-title').className='.project-title-swap';
+        
+        } else {
+        eventObj = true;
+        document.querySelector('.project-title-swap').className='.project-title';
+        }
+
+            
 });
+
 
 
 

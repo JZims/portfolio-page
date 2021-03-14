@@ -1,6 +1,7 @@
 body {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn8k5tEDr5rrpgEIzmPCXjZaBdAQezvCIkbQ&usqp=CAU);
   margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 #welcome-section {
@@ -16,7 +17,7 @@ body {
 }
 
 h1, h2 {
-  font-family: 'Raleway', sans-serif;
+  
   font-weight: 700;
   text-align: center;
 }
@@ -142,10 +143,41 @@ background-color:tomato;
 }
 
 
-/*ul#projects-list {
+
+#contact-section {
   display: flex;
   flex-direction: row;
-  padding: 8rem 2rem;
-  width:1fr;
-  justify-content:space-evenly;
-}*/
+  justify-content: center;
+  align-content: flex-start;
+  
+
+}
+ul#contact-section > li {
+margin: auto;
+display: flex;
+flex-direction: row;
+align-content: flex-start;
+font-display: none;
+
+}
+
+#contact-section-header h2{
+display: flex;
+font-size: 25;
+justify-content: center;
+font-weight: 500;
+color: azure;
+}
+
+#contact-section-header p {
+display: flex;
+font-size: 17;
+justify-content: center;
+font-weight: 500;
+color: azure;
+padding-bottom: 15pt;
+}
+
+.contacts-logo {
+  width: 25px;
+}
